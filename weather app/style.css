@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#65eda4,#a758f1);
+    color: #fff;
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input
+{
+    border: 0;
+    height: 60px;
+    border-radius: 30px;
+    outline: 0;
+    padding: 10px 25px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+}
+.search  button{
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    background: #ebfffc;
+    padding-top: 7px;
+    padding-left: 1px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.whicon{
+    width: 150px;
+    margin-top: 30px;
+}
+.temp{
+    font-size: 60px;
+    margin-top:25px ;
+}
+.city{
+    font-size: 40px;
+    margin-top:10px ;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.colo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.colo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+.humidity ,.Wind{
+    font-size:25px ;
+    margin-top: -6px;
+}
+/* .coll{
+   padding-bottom: 20px;
+ display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#red,#yello,#green{
+   
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  #red{
+    background: linear-gradient(135deg,#65eda4,#a758f1);
+      margin: 5px;
+      margin: 5px;
+  }
+  #yello{
+      background: linear-gradient(135deg,#2ffe00,#58f1e7);
+      margin: 5px;
+      margin: 5px;
+  }
+  #green{
+      background: linear-gradient(135deg,#bfef65,rgb(250, 113, 182));
+      margin: 5px;
+      margin: 5px;
+  } */
+  .wheather{
+    display: none;
+  }
+  .error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+  }
+  
